@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Techinical Documentation</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+</head>
+<body>
+	<div class="main-wrap">
+		<nav id="navbar" class="navbar ">
+			<div class="top-success">
+				<h1>SUCCESS</h1> 
+				<div onclick="navDrop()"> <p class="menu-button">. . .</p></div>
+			</div>
+			<a href="#introduction" class="nav-link">Introduction</a>
+			<a href="#hall_of_fame" class="nav-link">Fame</a>
+			<a href="#success_story" class="nav-link">Story</a>
+			<a href="#success_req" class="nav-link">Requirements</a>
+			<a href="#success_form" class="nav-link">Form</a>
+		</nav>
+		<main id="main-doc">
+			<section class="main-section" id="introduction">
+				<div class="intro-img">
+					<div class="intro-cont">
+						<span><h1 class="animate_span_again">REPARADNESS</h1></span>
+						<div class="opportunity">
+							<h1><span class="T">O</span></h1>
+							<h1><span class="p">P</span></h1>
+							<h1><span class="T">P</span></h1>
+							<h1><span class="T">U</span></h1>
+							<h1><span class="T">R</span></h1>
+							<h1><span class="T">T</span></h1>
+							<h1><span class="Y">U</span></h1>
+							<h1><span class="Y">N</span></h1>
+							<h1><span class="Y">I</span></h1>
+							<h1><span class="Y">T</span></h1>
+							<h1><span class="Y">Y</span></h1>
+						</div>
+					</div>
+				</div>
+				<h2>Introduction</h2>
+				<div class="success-q-wrap">
+					<div class="success-q">
+						<h3>What is success?</h3>
+						<p>Success is basically a reward that happens when preparedness meets with opportunity</p>
+					</div>
+					<div class="success-q">
+						<h3>What success not?</h3>
+						<p>Success is not a coincidence or an event by chance or happpenstance</p>
+					</div>
+				</div>
+			</section>
+			<section class="main-section" id="hall_of_fame">
+				<h2>Hall of fame</h2>
+				<table>
+					<tr>
+						<th>Asians</th>
+						<th>Americans</th>
+						<th>Africans</th>
+					</tr>
+					<tr>
+						<td>hiromi chan</td>
+						<td>Bill Gates</td>
+						<td>Kelechi Aligwo</td>
+					</tr>
+					<tr>
+						<td>Jun piu</td>
+						<td>Steve Jobs</td>
+						<td>Chinenye Okonkwo</td>
+					</tr>
+					<tr>
+						<td>hiromi chan</td>
+						<td>Bill Gates</td>
+						<td>Kelechi Aligwo</td>
+					</tr>
+					<tr>
+						<td>Jun piu</td>
+						<td>Steve Jobs</td>
+						<td>Chinenye Okonkwo</td>
+					</tr>
+				</table>
+			</section>
+			<section class="main-section" id="success_story">
+				<h2>Short success story</h2>
+				<img src="images/story.jpeg" width="100%">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+					Hic sint, eligendi voluptatibus dolorum rerum 
+					cumque veniam at aliquam vel tenetur amet? 
+					Inventore optio voluptatem sit numquam quia ea voluptas ducimus.
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+					Hic sint, eligendi voluptatibus dolorum rerum 
+					cumque veniam at aliquam vel tenetur amet? 
+					Inventore optio voluptatem sit numquam quia ea voluptas ducimus.</p>
+				<p>Content of this section</p>
+			</section>
+			<section class="main-section" id="success_req">
+				<h2>Requirements for Success</h2>
+				<p>Only for success driven people</p>
+				<p>Every success driven person must possess the following requirments</p>
+				<ul>
+					<li>Waking up early <i>(before 6am)</i></li>
+					<li>Creative thinking</li>
+					<li>Investing in one's self</li>
+					<li>Excellence in every activity</li>
+					<li>Persistence and continuance</li>
+				</ul>
+			</section>
+			<section class="main-section" id="success_form">
+				<div>
+					<h2>Success form</h2>
+					<p>This forum was created to assist young people with a burning passion
+						to be part of the success hall of fame
+					</p>
+					<p>Fill the suuccess form below to get our success reminders and notifications</p>
+				</div>
+				<form action="#">
+					<input type="text" name="name" for="text" placeholder="John Doe"> <br>
+					<input type="text" name="email" for="email" placeholder="johnd@gmail.com"> <br>
+					<textarea name="comment" id="" cols="30" rows="10"></textarea> <br>
+					<input type="submit" value="submit">
+
+				</form>
+			</section>
+		</main>
+	</div>
+	<script>
+		const navDrop = ()=> {
+			let nav = document.querySelector(".navbar");
+			nav.classList.toggle("navbarLong");
+		}
+	</script>
+</body>
+</html>
